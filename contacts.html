@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="icons/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contacts.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -64,80 +64,61 @@
                         <div class="tab-content">
                             <div class="logo-holder row">
                                 <img src="img/oblowitz_logo.svg" />
-                                <p class="text-center text-muted">Marriage & Family Therapist Registered Intern #91510</p>
+                                <p class="text-center text-muted">Семейный психолог Наталия Дембицкая</p>
                             </div>
-                            <div role="tabpanel" class="tab-pane in active" id="about">
-                                <div class="row">
-                                    <div id="main" class="carousel slide carousel-fade" data-ride="carousel">
-                                        <div class="carousel-inner" role="listbox">
-                                            <div class="item active">
-                                                <img src="img/img3.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img2.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img1.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img4.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img5.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img6.jpg" alt="" />
-                                            </div>
-                                            <div class="item">
-                                                <img src="img/img7.jpg" alt="" />
-                                            </div>
 
-                                            <div class="static">
-                                                <p>
-                                                    Transform <br />
-                                                    your wounds <br />
-                                                    <span>to wisdom</span> <br />
-                                                </p>
-                                                <p class="sm">
-                                                    <b class="act">SOOTHE</b> <b class="">STRENGTHEN</b> <b class="last">SOAR</b>
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <!-- Controls -->
-                                        <a class="left carousel-control" href="#main" role="button" data-slide="prev">
-                                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="right carousel-control" href="#main" role="button" data-slide="next">
-                                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                        </a>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                                <a href="about.html" class="btn btn-primary under-slider-btn">&nbsp;&nbsp;&nbsp;&nbsp; Want to know more? &nbsp;&nbsp;&nbsp;&nbsp;</a>
-                                <div class="clearfix"></div>
-                                <hr>
-                                <div class="text">
-                                    <p class="text-muted">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis libero sit amet lacus sollicitudin tincidunt ut vel sapien. Aliquam erat volutpat. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae lorem eu tellus gravida tincidunt vel sed nisi. Vestibulum massa metus, aliquet sit amet justo ac, pretium rutrum leo. In hac habitasse platea dictumst. Quisque at euismod metus. Aenean molestie, purus nec hendrerit dapibus, mi elit dapibus urna, nec suscipit urna est sed odio. Sed molestie quam sed magna sodales pharetra. Vivamus lacinia ante vel cursus mollis.
-                                        <br />
-                                        <b>Valdemar</b>
-                                    </p>
-                                </div>
-                                <div class="bottom-form row">
-                                    <h2>GET IN TOUCH</h2>
-                                    <form class="form" action="sub.php" method="POST">
-                                        <div class="layout-input">
-                                            <input type="text"  name="user-email" id="user-email" required>
-                                            <label for="user-email">Email</label>
-                                            <span class="bar"></span>
-                                            <div class="alert" id="alert-email">Wrong email format.</div>
-                                        </div>
-                                        <button type="submit" class="btn btn-info">Submit</button>
-                                    </form>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
                         </div>
+                        <!--Content-->
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 form-block">
+                          <h4>
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                            Свяжитесь со мной
+                          </h4>
+                          <form action="#" method="post">
+                            <div class="layout-input">
+                              <input type="text"  name="user-name" id="user-name" required>
+                              <label for="user-name">Имя</label>
+                              <span class="bar"></span>
+                              <div class="alert" id="alert-name">Should contain only letters latin/cyrillic.</div>
+                            </div>
+
+                            <div class="layout-input">
+                              <input type="text"  name="user-email" id="user-email" required>
+                              <label for="user-email">Email</label>
+                              <span class="bar"></span>
+                              <div class="alert" id="alert-email">Wrong email format.</div>
+                            </div>
+                            <div class="layout-input text-area">
+                              <textarea name="massage" id="user-email" required></textarea>
+                              <label for="user-email">Сообщение</label>
+                              <span class="bar"></span>
+                              <div class="alert" id="alert-email">Wrong email format.</div>
+                            </div>
+                            <button type="submit" class="btn btn-info">Отправить</button>
+                          </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 info-block">
+                          <h4>
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            Информация
+                          </h4>
+                          <ul class="list-unstyled">
+                            <li>
+                              <i class="fa fa-phone" aria-hidden="true"></i>
+                              +8 093 236-96-91
+                            </li>
+                            <li>
+                              <i class="fa fa-envelope" aria-hidden="true"></i>
+                              sytnik16@gmail.com
+                            </li>
+                          </ul>
+                          <p>
+                            Наталия Дембицкая
+                            <br>
+                            Семейный психолог
+                          </p>
+                        </div>
+                        <!--End-->
                     </div>
                 </div>
             </div>

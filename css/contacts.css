@@ -1,0 +1,330 @@
+:focus {
+  outline: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-width: 320px;
+  background-image: url(../img/Background-site.jpg);
+  background-size: cover;
+}
+body .main-content-block .js-start-animation {
+  bottom: 0px !important;
+  opacity: 1 !important;
+}
+body .main-content-block .tabs-with-content {
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  -moz-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+body .main-content-block .tabs-with-content .nav-container {
+  background: rgba(0, 0, 0, 0.2);
+}
+body .main-content-block .tabs-with-content .nav-container .btn-primary,
+body .main-content-block .tabs-with-content .nav-container .btn {
+  padding: 0 20px;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 55px;
+  color: #fff;
+  background: #5C6BC0;
+}
+body .main-content-block .tabs-with-content .nav-container .btn-primary img,
+body .main-content-block .tabs-with-content .nav-container .btn img {
+  height: 40px;
+  width: 40px;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs {
+  padding: 0 15px;
+  border-bottom: 0px;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs li {
+  height: 0;
+  width: 100%;
+  text-align: center;
+  transition: all ease-out 0.1s;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs li img {
+  width: 40px;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs li a {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  padding: 18px 15px;
+  margin: 0 1px 1px 0;
+  -moz-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  position: relative;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .show {
+  height: 57px;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right {
+  height: 57px;
+  background-color: #9FA8DA;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  font-size: 12px;
+  margin: 5px 0 0;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right p i {
+  font-size: 15px;
+  line-height: 10px;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right p a {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: inherit;
+  padding: 0;
+}
+body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right .sch {
+  position: absolute;
+  bottom: -27px;
+  z-index: 99;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  color: #fff;
+  background: #acb0ff;
+  padding: 5px 0;
+  font-weight: 600;
+  right: 0;
+}
+body .main-content-block .tabs-with-content .outer-content {
+  background-color: #f9fafa;
+  background-image: url(../img/bg.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block h4 {
+  font-size: 22px;
+  margin-top: 0;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block h4 i {
+  color: #d0d0d0;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form {
+  margin: 20px 0;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .text-area .bar {
+  top: -5px;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input {
+  position: relative;
+  margin-top: 44px;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input label {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #b8b5bd;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  pointer-events: none;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .alert {
+  visibility: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 13px;
+  font-weight: 400;
+  color: #DD2B00;
+  border-radius: 0;
+  -webkit-transition: .2s ease visibility;
+  transition: .2s ease visibility;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .alert span {
+  display: none;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .bar::before {
+  left: 50%;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .bar::after {
+  right: 50%;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .bar::after,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input .bar::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 0;
+  bottom: 0px;
+  background: #3F51B5;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea {
+  padding: 0;
+  min-height: 150px;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input input,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea {
+  padding: 1px 0 0 2px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1E2431;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #dadee6;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-transition: none;
+  transition: none;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input input:focus ~ label,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea:focus ~ label {
+  top: -20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #3F51B5;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input input:valid ~ label,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input input:focus ~ .bar::after,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea:focus ~ .bar::after {
+  width: 50%;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input input:focus ~ .bar::before,
+body .main-content-block .tabs-with-content .outer-content .form-block form .layout-input textarea:focus ~ .bar::before {
+  width: 50%;
+}
+body .main-content-block .tabs-with-content .outer-content .form-block form .btn-info {
+  color: #fff;
+  background: #acb0ff;
+  padding: 0 20px;
+  border-radius: 0;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 55px;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block h4 {
+  font-size: 22px;
+  margin-top: 0;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block h4 i {
+  color: #d0d0d0;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block ul {
+  text-align: justify;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block ul li {
+  line-height: 200%;
+  font-size: 16px;
+  list-style-type: none;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block ul li i {
+  color: #d0d0d0;
+}
+body .main-content-block .tabs-with-content .outer-content .info-block p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #d8d8d8;
+}
+body .main-content-block .tabs-with-content .outer-content .tab-content {
+  font-size: 13px;
+  line-height: 19.5px;
+  padding: 27px 15px 5px;
+  background-image: url(../img/bgb.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  margin: 0 -15px;
+}
+body .main-content-block .tabs-with-content .outer-content .tab-content .logo-holder {
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #3F51B5;
+  padding: 10px 10px 20px 10px;
+  margin-bottom: 20px;
+}
+body .main-content-block .tabs-with-content .outer-content .tab-content .logo-holder img {
+  max-width: 390px;
+  display: block;
+  margin: 0 auto;
+}
+body .main-content-block .tabs-with-content .outer-content .tab-content .logo-holder p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+body footer {
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  padding: 40px 0 0 0;
+  text-align: center;
+}
+body footer .container .row div a {
+  color: #ffffff;
+}
+body footer p {
+  text-align: center;
+}
+body footer .lower-footer {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 50px;
+}
+@media screen and (min-width: 992px) {
+  body .main-content-block .tabs-with-content .nav-container .nav-tabs li {
+    width: auto;
+    height: 57px;
+  }
+  body .main-content-block .tabs-with-content .nav-container .nav-tabs li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right {
+    padding: 0 5px;
+  }
+  body .main-content-block .tabs-with-content .nav-container .nav-tabs .pull-right .sch {
+    bottom: -45px;
+  }
+  body .main-content-block .tabs-with-content .outer-content .tab-content .tab-pane .bottom-form form {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 992px) {
+  body .main-content-block .tabs-with-content .outer-content .tab-content .tab-pane .bottom-form form {
+    width: 60%;
+  }
+}

@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     less = require('gulp-less');
 
 gulp.task('default', function () {
-    gulp.src('less/main.less')
+    gulp.src('less/contacts.less')
         .pipe(less())
         .pipe(gulp.dest('./css'))
         .pipe(cleanCss())
@@ -11,5 +11,5 @@ gulp.task('default', function () {
 });
 
 gulp.task('watch',function () {
-    gulp.watch('less/main.less', ['default'])
+    gulp.watch('less/contacts.less', ['default'])
 });

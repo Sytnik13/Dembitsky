@@ -33,14 +33,14 @@ body .main-content-block .tabs-with-content .nav-container .btn {
   color: #fff;
   background: #5C6BC0;
 }
+body .main-content-block .tabs-with-content .nav-container .btn-primary img,
+body .main-content-block .tabs-with-content .nav-container .btn img {
+  height: 40px;
+  width: 40px;
+}
 body .main-content-block .tabs-with-content .nav-container .nav-tabs {
   padding: 0 15px;
   border-bottom: 0px;
-}
-body .main-content-block .tabs-with-content .nav-container .nav-tabs li:nth-child(1) a {
-  background-color: #C5CAE9;
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
 }
 body .main-content-block .tabs-with-content .nav-container .nav-tabs li {
   height: 0;
@@ -344,14 +344,15 @@ body footer {
   padding: 40px 0 0 0;
   text-align: center;
 }
-body footer .container .row div {
-  padding: 20px 0;
+body footer .container .row div a {
+  color: #ffffff;
 }
 body footer p {
   text-align: center;
 }
 body footer .lower-footer {
   background: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
   font-size: 12px;
   line-height: 50px;
 }
